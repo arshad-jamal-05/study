@@ -1,0 +1,14 @@
+body {
+    background-image: url(SampleImage1.jpg);
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+}
+#submit {
+    background-color: aquamarine;
+    
+}
+* {
+    color: darkseagreen;
+}
