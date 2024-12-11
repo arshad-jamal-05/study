@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media query</title>
+    <style>
+        div.main {
+           height: 500px;
+           width: 500px;
+           border: 3px dotted black;
+           background-color: darksalmon;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        div.class {
+            height: 250px;
+            width: 250px;
+            border: 2px dotted black;
+            background-color: darkorchid;
+        }
+        @media (min-width: 500px) {
+            div.main {
+                background-color: chocolate;
+            }
+            div.class {
+                background-color: rgb(106, 27, 180);
+            }
+        }
+        @media (max-width: 400px) {
+            div.main {
+                height: 250px;
+                width: 250px;
+                background-color: orange;
+            }
+            div.class {
+                height: 125px;
+                width: 125px;
+                background-color: purple;
+            }
+        }
+        /* @media (max-width: 400px) and (min-width: 500px) {
+            div.main {
+                background-color: rgb(121, 58, 13);
+            }
+            div.class {
+                background-color: rgb(69, 20, 116);
+            }
+        } */
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="class"></div>
+    </div>
+  </body>
+</html>

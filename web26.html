@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --color: blue;
+            --sec-color: rgb(119, 119, 193);
+            --defpad: 23px;      /* defpad means default padding */ /* we can hold anoher types of values like border , padding , opacity and etc */
+            
+        }
+        .nav-bar {
+            color: var(--color);
+            background-color: var(--sec-color);
+        }
+        p {
+            color: var(--sec-color);
+            background-color: var(--color);
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            gap: 40px;
+        }
+        ul > li:first-child {
+            color: var(--sec-color);
+            background-color: var(--color, orange);    /* if var(--color is not available then style the element using given color value)*/
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima optio iste repellendus sint maxime quasi sapiente? Modi, nemo expedita. Asperiores excepturi officiis, illo alias atque nostrum laborum voluptas neque ipsam in tempora et. Repudiandae fugiat ratione illo odio enim.</p>
+</body>
+</html>

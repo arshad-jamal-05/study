@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float & Clear</title>
+    <style>
+      img {
+        border: 3px dotted green;
+        height: 300px;
+        float: left;
+      }
+      .card {
+        border: 3px solid blue;
+      }
+      .cards {
+        border: 3px solid red;
+        display: flow-root;
+      }
+      .card:nth-child(3) {
+        background-color: aquamarine;
+        clear: left;          /* clear: left  any elment in the left side is float then i need full our spacce */
+        /* clear: right; */    /* clear: right  any elment in the right side is float then i need full our spacce */
+        /* clear: both; */      /* clear: both  any elment in the left side is float then i need full our spacce */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+        <img src="arshadphoto.jpg" alt="" />
+      <div class="card">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus at amet, illo maiores a porro atque voluptate velit. Cupiditate debitis tenetur repellat fugiat inventore! Molestiae vero qui maxime similique voluptas!</h2>
+      </div>
+      <div class="card">
+        <h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quo
+          deleniti cum officia corporis necessitatibus recusandae earum
+          laboriosam debitis porro vel, repellat odio! Corporis sit voluptatibus
+          possimus? Nihil, minus necessitatibus.
+        </h3>
+      </div>
+      <div class="card">
+        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, cupiditate error laudantium et similique aliquid itaque veniam iste autem placeat qui aliquam blanditiis ut dolorum reprehenderit dolore distinctio odio exercitationem ratione laboriosam magnam aperiam delectus doloremque. Voluptatum aspernatur molestias ipsam inventore error nobis autem ex ipsa illo quia, quod debitis asperiores et, harum illum beatae id repellendus facilis ipsum hic officia. Sed quisquam, sapiente totam quod quo ad error quibusdam enim odit doloremque assumenda maiores ullam ut aperiam nam accusantium est. Suscipit veritatis ratione hic fugit enim doloremque repellendus nam. Tenetur, a! Autem recusandae ipsam consectetur consequatur veritatis quos veniam debitis possimus ut nisi deserunt quae quaerat voluptatem, exercitationem pariatur, minima sequi, officia assumenda quisquam laboriosam. Deleniti vel qui reiciendis, eius fugit vitae rerum voluptatibus cumque quasi ipsum velit tempore et accusamus distinctio sit hic sint? Recusandae sit harum perferendis ipsam, architecto cupiditate temporibus hic iure totam, veritatis, nesciunt eveniet voluptatibus illo asperiores dolorem eligendi ratione minima voluptatum perspiciatis illum beatae est. Qui, sint est nemo fugit ex et repudiandae obcaecati magnam voluptas at nisi. Tenetur eius, error rem culpa assumenda modi placeat deserunt nostrum. Reprehenderit rerum dolorum omnis sed obcaecati necessitatibus qui perferendis placeat perspiciatis rem in animi autem quidem asperiores enim deserunt, adipisci commodi debitis illum ipsum molestias? Sit ratione aliquid libero? Consectetur beatae quis itaque officiis sed ex blanditiis quisquam et, commodi vitae doloremque dicta excepturi labore facilis consequatur corporis obcaecati unde quaerat ipsam odit libero. Tenetur earum perspiciatis consequatur beatae dicta delectus quam adipisci possimus reprehenderit iste, ad nam corporis ipsa architecto cupiditate labore nostrum provident animi quas odio. Assumenda nisi molestias vero aliquid cupiditate illo fugit dignissimos placeat ipsa beatae voluptatum unde natus qui, sunt facere impedit ipsam dolor autem quod! Ad odit dignissimos, temporibus labore sit error culpa illum pariatur veritatis amet distinctio quasi esse asperiores tempore nobis officia aperiam blanditiis hic impedit fuga neque. Debitis quas pariatur aperiam quia iste voluptas accusamus, eum dolorem reiciendis omnis facilis laborum similique reprehenderit alias neque enim earum. Dolorem dolore repudiandae libero distinctio nemo nihil, ex minus iure hic aperiam, necessitatibus deserunt fugit porro! Atque reiciendis, enim odit neque aliquid aut ullam.</h5>
+      </div>
+    </div>
+  </body>
+</html>

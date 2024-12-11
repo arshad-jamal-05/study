@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS position</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        height: 180px;
+        width: 60vw;
+        margin: 5px;
+        padding: 5px;
+        border: 3px solid black;
+      }
+      .box1 {
+        background-color: aqua;
+        position: relative;
+        /* z-index: 2; */
+        top: 35px;
+        left: 35px;
+        text-transform: uppercase;
+      }
+      .box2 {
+        background-color: cadetblue;
+        position: relative;
+        margin-top: -84px;
+        left: 95px;
+        /* z-index: 1; */
+        top: -24px;
+        text-align: end;
+        text-transform: uppercase;
+      }
+      .box3 {
+        background-color: cornflowerblue;
+        position: relative;
+        top: 25px;
+        left: 25px;
+        z-index: 1;
+      }
+      .box4 {
+        background-color: crimson;
+        position: relative;
+        left: 75px;
+        top: -75px;
+      }
+      .parent {
+        margin: 25px;
+        padding: 15px;
+        border: 3px solid purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box box1">
+        hi i am arshad jamal and i am pursuing diploma in computer science
+      </div>
+      <div class="box box2">and my dream to be a very good web developer</div>
+      <div class="box box3"></div>
+      <div class="box box4"></div>
+    </div>
+  </body>
+</html>

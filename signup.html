@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <style>
+      body {
+        background-color: cadetblue;
+        overflow: hidden;
+      }
+      .sign {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        margin-left: 277px;
+        height: 450px;
+        width: 700px;
+        align-items: center;
+        border: 3px solid white;
+        background-color: white;
+        position: relative;
+        border-radius: 15px;
+      }
+      .heading {
+        color: cadetblue;
+        font-size: 22px;
+        font-family: cursive;
+        margin: 18px;
+      }
+      #username {
+        height: 28px;
+        width: 400px;
+        margin: 5px;
+        border: 2px solid cadetblue;
+        border-radius: 15px;
+        font-family: cursive;
+        text-align: center;
+      }
+      #number {
+        height: 28px;
+        width: 400px;
+        margin: 5px;
+        border: 2px solid cadetblue;
+        border-radius: 15px;
+        font-family: cursive;
+        text-align: center;
+      }
+      #email {
+        height: 28px;
+        width: 400px;
+        margin: 5px;
+        border: 2px solid cadetblue;
+        border-radius: 15px;
+        font-family: cursive;
+        text-align: center;
+      }
+      #password {
+        height: 28px;
+        width: 400px;
+        margin: 5px;
+        border: 2px solid cadetblue;
+        border-radius: 15px;
+        font-family: cursive;
+        text-align: center;
+      }
+      button {
+        height: 28px;
+        width: 400px;
+        border: 2px solid cadetblue;
+        background-color: cadetblue;
+        color: white;
+        border-radius: 15px;
+        font-family: cursive;
+        text-align: center;
+      }
+      button:hover {
+        background-color: rgba(95, 158, 160, 0.858);
+        border-color: rgba(95, 158, 160, 0.858);
+      }
+      p {
+        text-align: center;
+      }
+      #useracc{
+        position: relative;
+        left: 120px;
+      }
+      .other {
+        color: dodgerblue;
+        text-decoration: none;
+      }
+      .other:hover {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sign">
+      <div class="heading">
+        <p>Create A New Account</p>
+        <form action="/action.php" id="useracc">
+            <input type="text" name="username" size="20" maxlength="20" id="username" placeholder="Enter A Username" required><br>
+            <input type="tel" name="number" size="10" maxlength="10" minlength="10" id="number" placeholder="Enter Your Phone Number" size="12" maxlength="12" required><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your E-Mail" required><br>
+            <input type="password" name="password" id="password" placeholder="Create A Password" required><br>
+            <input type="password" name="password" id="password" placeholder="Confirm Your Password" required><br>
+            <button>Create Account</button><br>
+            <a href="file:///D:/CSS%20PRACTICAL/study/login.html" class="other">Already Have An Account</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tables in HTML</title>
+  </head>
+  <style>
+    table, td, th{
+        border: 3px solid black;
+    }
+    thead td{
+        text-align: center;
+    }
+  </style>
+  <body>
+    <h3>tables in HTML</h3>
+    <table>
+      <caption>
+        Student Details
+      </caption>
+      <tr>
+        <thead >
+            <td colspan="2">MMIT Aligarh</td>
+        </thead>
+      </tr>
+      <tr>
+        <th>name</th>
+        <th>roll no.</th>
+      </tr>
+      <tr>
+        <td>arshad jamal</td>
+        <td>23166535500013</td>
+      </tr>
+      <tr>
+        <td>ayan ahmad</td>
+        <td>23166535500453</td>
+      </tr>
+      <tr>
+        <td>suraj patel</td>
+        <td>2316653555782340013</td>
+      </tr>
+      <tfoot>
+        <tr>
+            <td colspan="1">Total student</td>
+            <td>3</td>
+        </tr>
+    </tfoot>
+    </table>
+  </body>
+</html>

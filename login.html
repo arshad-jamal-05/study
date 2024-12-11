@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        overflow: hidden;
+      }
+      div {
+        display: inline-block;
+      }
+      .login {
+        margin: 0px;
+        padding: 0px;
+        height: 578px;
+        width: 1280px;
+        background-color: cadetblue;
+        background-size: cover;
+      }
+      .box {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        margin-left: 277px;
+        height: 450px;
+        width: 700px;
+        align-items: center;
+        border: 3px solid white;
+        background-color: white;
+        position: relative;
+        border-radius: 15px;
+      }
+      .box1 {
+        align-items: center;
+        position: relative;
+        left: 120px;
+      }
+      p {
+        color: cadetblue;
+        font-size: 45px;
+        font-family: cursive;
+        text-align: center;
+        font-weight: bold;
+      }
+      #username {
+        height: 40px;
+        width: 400px;
+        padding: 10px;
+        margin-top: 25px;
+        margin-bottom: 5px;
+        border: 2px solid cadetblue;
+        font-family: cursive;
+        border-radius: 15px;
+        text-align: center;
+      }
+      #pass {
+        height: 40px;
+        width: 400px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 2px solid cadetblue;
+        font-family: cursive;
+        border-radius: 15px;
+        text-align: center;
+      }
+      button {
+        height: 40px;
+        width: 400px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: cadetblue;
+        color: white;
+        border: 2px solid cadetblue;
+        border-radius: 15px;
+        font-family: cursive;
+      }
+      button:hover {
+        background-color: rgba(95, 158, 160, 0.858);
+        border-color: rgba(95, 158, 160, 0.858);
+        cursor: pointer;
+      }
+      .other {
+        color: dodgerblue;
+        text-decoration: none;
+      }
+      .other:hover {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login">
+      <div class="box">
+        <p>Log In</p>
+        <div class="box1">
+          <form action="/action.php">
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Username , Phone Number , E-Mail"
+              required
+            /><br /><br />
+            <input
+              type="password"
+              name="pass"
+              id="pass"
+              placeholder="Password"
+              required
+            />
+            <button>Log In</button>
+          </form>
+          <a class="other" href="file:///D:/CSS%20PRACTICAL/study/signup.html">Create A New Account</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          <a class="other" href="">Forget Password</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
